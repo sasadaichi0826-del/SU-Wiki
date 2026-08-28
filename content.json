@@ -1,0 +1,51 @@
+{
+  "site": {
+    "title": "最前線攻略TV SU0911 攻略Wiki",
+    "tagline": "惑星の消し方から爆弾惑星のCHAINまで、最前線で戦うための攻略情報まとめ。",
+    "chips": ["🪐 惑星の基本", "💣 爆弾惑星", "⛓️ CHAIN", "🎯 スコア戦略"]
+  },
+  "pages": [
+    {
+      "id": "basic",
+      "icon": "📌",
+      "title": "基本攻略",
+      "group": "はじめに",
+      "html": "<p class=\"lead\">フィールド上の惑星を消し、より多くのスコアを獲得することがこのゲームの基本。</p>\n<div class=\"card\"><h3>ゲームの基本</h3><p>フィールド上に存在する惑星を消していき、より多くのスコアを獲得することが基本となる。</p></div>\n<div class=\"note\"><span class=\"label\">攻略のポイント</span>ただ惑星を消すだけではなく、次にどの惑星を消すかを考えてフィールドを整理することが重要。</div>"
+    },
+    {
+      "id": "planet",
+      "icon": "🪐",
+      "title": "惑星",
+      "group": "はじめに",
+      "html": "<div class=\"card\"><h3>通常の惑星 <span class=\"badge score\">得点あり</span></h3><p>基本となる惑星。条件を満たして消すことでスコアを獲得できる。</p></div>\n<div class=\"card\"><h3>なぞる <span class=\"badge\">狙い撃ち</span></h3><p>惑星を狙って消す方法。周囲の惑星を巻き込まず、狙った惑星だけを消すことができる。</p></div>\n<div class=\"note\"><span class=\"label\">なぞるの使いどころ</span>爆弾惑星の影響を受けたくない場合や、狙った惑星だけを消してスコアを稼ぎたい場合に有効。</div>"
+    },
+    {
+      "id": "bomb",
+      "icon": "💣",
+      "title": "爆弾惑星",
+      "group": "ギミック",
+      "html": "<div class=\"card\"><h3>爆弾惑星とは？ <span class=\"badge noscore\">得点なし</span></h3><p>爆弾惑星は、触れることで爆発する特殊な惑星。</p><p>爆発すると、爆弾惑星の周囲にある惑星も巻き込んで爆発・消去される。</p></div>\n<div class=\"note warning\"><span class=\"label\">⚠ 注意</span>爆弾惑星による爆発で消えた惑星は、通常の方法で消した場合と違い、スコアを獲得できない。</div>\n<h3>爆発の特徴</h3>\n<ul><li>爆弾惑星に触れると爆発する</li><li>周囲の惑星を巻き込んで消去する</li><li>爆発によって消えた惑星は無得点</li><li>爆弾惑星同士が近い場合、連鎖が発生する可能性がある</li></ul>\n<div class=\"note\"><span class=\"label\">使い分け</span>一気にフィールドを整理したい場合は爆弾惑星、スコアを重視する場合はなぞるなど、状況によって使い分けるのが重要。</div>"
+    },
+    {
+      "id": "chain",
+      "icon": "⛓️",
+      "title": "CHAIN",
+      "group": "ギミック",
+      "html": "<div class=\"card\"><h3>爆弾惑星の連鎖</h3><p>爆弾惑星が爆発した際、その爆発によって別の爆弾惑星に触れると、さらにその爆弾惑星が爆発する。</p><p>このように、<strong>爆弾惑星 → 爆弾惑星</strong> と連続して爆発することで <strong>CHAIN</strong> が発生する。</p></div>\n<div class=\"note chain\"><span class=\"label\">CHAINのイメージ</span><div class=\"chain-flow\">💣 → 💥 → 💣 → 💥 → 💣 → 💥</div>爆弾惑星を連続して誘爆させるほど、より大きな範囲を一気に消去できる。</div>\n<h3>CHAINを狙うときのポイント</h3>\n<ul><li>爆弾惑星同士の位置を確認する</li><li>最初に爆発させる爆弾惑星を選ぶ</li><li>次の爆弾惑星へ爆発が届くか確認する</li><li>複数の爆弾惑星を巻き込める状況を狙う</li><li>スコアを取りたい場合は通常消去との使い分けをする</li></ul>"
+    },
+    {
+      "id": "strategy",
+      "icon": "🎯",
+      "title": "最前線攻略",
+      "group": "実戦",
+      "html": "<h3>① スコア重視</h3>\n<div class=\"card\"><p>爆弾惑星を無闇に爆発させると、周囲の惑星まで消えてしまい、その惑星からスコアを得られなくなる。</p><p>スコアを優先する場合は、<strong>なぞる</strong>などを利用して狙った惑星を直接消すのが有効。</p></div>\n<h3>② フィールド整理重視</h3>\n<div class=\"card\"><p>フィールドに惑星が大量に残っていて動きにくい場合は、爆弾惑星を利用して一気に整理する。</p><p>特に爆弾惑星同士が連続して配置されている場合は、CHAINを狙うことで大きな範囲を一度に処理できる。</p></div>\n<h3>③ 爆弾惑星を見つけたら</h3>\n<div class=\"card\"><ol class=\"steps\"><li>爆弾惑星の位置を確認する</li><li>周囲に通常惑星がどれだけあるか確認する</li><li>近くに別の爆弾惑星がないか確認する</li><li>スコアを優先するか、フィールド整理を優先するか決める</li><li>必要なら爆発させ、CHAINを狙う</li></ol></div>\n<div class=\"note\"><span class=\"label\">最重要ポイント</span>「爆弾だからすぐ爆発させる」のではなく、爆発後に何が起こるかを考えてから使うこと。</div>"
+    },
+    {
+      "id": "summary",
+      "icon": "📚",
+      "title": "攻略まとめ",
+      "group": "実戦",
+      "html": "<div class=\"table-wrap\"><table><thead><tr><th>要素</th><th>特徴</th><th>スコア</th></tr></thead><tbody><tr><td>通常惑星</td><td>基本となる惑星</td><td><span class=\"badge score\">あり</span></td></tr><tr><td>なぞる</td><td>狙った惑星だけを消してスコアを狙える</td><td><span class=\"badge score\">あり</span></td></tr><tr><td>爆弾惑星</td><td>触れると周囲も爆発して消える</td><td><span class=\"badge noscore\">なし</span></td></tr><tr><td>CHAIN</td><td>爆弾惑星から別の爆弾惑星へ誘爆することで発生</td><td><span class=\"badge noscore\">なし</span></td></tr><tr><td>爆発消去</td><td>爆発によって消えた惑星は無得点</td><td><span class=\"badge noscore\">なし</span></td></tr></tbody></table></div>"
+    }
+  ]
+}
